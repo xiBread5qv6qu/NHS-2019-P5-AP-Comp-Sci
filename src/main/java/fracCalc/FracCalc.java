@@ -23,12 +23,11 @@ public class FracCalc {
 		boolean running = true;
 		while (running) {
 			input = userInput.nextLine();
-			if (input.equals("Quit")) {	
+			if (input.equals("Quit")) {
 				break;
-			}else {
+			} else {
 				produceAnswer(input);
 			}
-			//userInput.close();
 		}
 	}
 
